@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FF8800"
+    tools:context="com.example.a21540743.appalejandrogarciaboiza.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_description"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/girl" />
+
+
+
+    <TextView
+        android:id="@id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="YEP!"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/editTextlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title"
+        android:orientation="vertical"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="20dp"
+        android:background="@android:color/white">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/title"
+            android:layout_toLeftOf="@+id/title">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/userNameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/username_Hint"
+                android:textColorHint="@color/AccentColor"
+                android:textSize="17sp">
+
+                <requestFocus />
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/title"
+            android:layout_toLeftOf="@+id/title">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/passwordField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password_Hint"
+                android:inputType="textPassword"
+                android:textColorHint="@color/AccentColor"
+                android:textSize="17sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextlayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/DarkPrimaryColor"
+        android:text="@string/login_button_label"
+        android:textColor="@color/TextIcons"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="UEM HandryCrafted" />
+
+
+
+</RelativeLayout>

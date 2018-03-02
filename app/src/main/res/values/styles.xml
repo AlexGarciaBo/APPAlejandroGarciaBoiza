@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="DarkPrimaryColor">@color/DarkPrimaryColor</item>
+        <item name="LightPrimaryColor">@color/LightPrimaryColor</item>
+        <item name="PrimaryColor">@color/PrimaryColor</item>
+        <item name="TextIcons">@color/TextIcons</item>
+        <item name="AccentColor">@color/AccentColor</item>
+        <item name="PrimaryText">@color/PrimaryText</item>
+        <item name="SecondaryText">@color/SecondaryText</item>
+        <item name="DividerColor">@color/DividerColor</item>
+    </style>
+    <style name="Ribbit">
+        <item name="android:background">@drawable/ic_launcher_background</item>
+    </style>
+
+</resources>

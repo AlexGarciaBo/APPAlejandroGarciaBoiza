@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">appAlejandro_Garcia_Boiza</string>
+    <string name="YEP">YEP!</string>
+    <string name="username_Hint">Username</string>
+    <string name="password_Hint">Password</string>
+    <string name="login_button_label">Sign In</string>
+    <string name="image_description">imagen de fondo</string>
+    <string name="subtitle">A UEM Project</string>
+    <string name="email_hit">Email</string>
+    <string name="textoUni">Del 11 al 14 de diciembre, en el campus de Villaviciosa de Odón, participa en el mercadillo solidario de libros organizado por la biblioteca CRAI Dulce Chacon.</string>
+
+</resources>
